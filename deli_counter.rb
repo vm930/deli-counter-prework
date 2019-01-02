@@ -12,5 +12,5 @@ def now_serving
   if katz_deli.size === 0
     puts "There is nobody waiting to be served!"
   else
-    puts ""
+    puts "Currently serving #{serving}."
 end
