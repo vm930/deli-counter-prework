@@ -10,7 +10,7 @@ end
 def now_serving
   serving = katz_deli.unshift()
   if katz_deli.size === 0
-    puts ""
+    puts "There is nobody waiting to be served!"
   else
     
 end
