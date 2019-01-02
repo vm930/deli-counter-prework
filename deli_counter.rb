@@ -7,4 +7,10 @@ def take_a_number(katz_deli, name)
   puts "Welcome, #{name}. You are number #{katz_deli[0]+1} in line."
 end
 
-
+def now_serving
+  serving = katz_deli.unshift()
+  if katz_deli.size === 0
+    puts ""
+  else
+    
+end
